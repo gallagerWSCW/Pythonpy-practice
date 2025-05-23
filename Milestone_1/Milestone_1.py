@@ -2,7 +2,7 @@
 from datetime import date
 print("Welcome to the age calculator")
 name=input("Please enter your name before we get started.")
-print("Hello {}!!!".format(name.capitalize()))
+print(F"Hello {name.capitalize()}!!!")
 #Asking the user to enter their birthday
 while True:
     try:
